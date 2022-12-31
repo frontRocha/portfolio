@@ -6,7 +6,7 @@ import { RiGithubFill, RiWhatsappFill, RiLinkedinFill } from 'react-icons/ri'
 export default function SectionOne() {
     return (
         <section className="h-auto bg-[#F0F0F0] py-10 min-h-screen">
-            <div className="fontMont flex flex-col md:flex-row items-center justify-between min-h-[600px] max-w-[1400px] mx-auto gap-10 md:gap-0 overflow-x-hidden">
+            <div className="fontMont flex flex-col md:flex-row items-center justify-between min-h-screen max-w-[1400px] mx-auto gap-10 md:gap-0 overflow-x-hidden">
                 <div className='relative flex flex-col items-center justify-end w-full overflow-x-hidden'>
                     <img className='min-w-[800px] md:min-w-[400px]' src={aquarela}/>
                     <div className='absolute top-[40%] md:top-[35%] lg:top-[40%] z-20'>
