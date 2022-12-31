@@ -34,7 +34,7 @@ export default function SectionTree() {
                                 </div>
                             </div>
                             <div className='w-full flex flex-col items-center justify-center'>
-                                <button className={`${expandedCardId !== item.id ? 'relative top-[-120px]' : 'relative top-[80px]'} duration-700`} onClick={expandedCardId !== item.id ? () => setExpandedCardId(item.id) : () => setExpandedCardId('')}>{expandedCardId === item.id ?
+                                <button className={`${expandedCardId !== item.id ? 'relative top-[-120px]' : 'relative top-[80px]'} outline-none duration-700`} onClick={expandedCardId !== item.id ? () => setExpandedCardId(item.id) : () => setExpandedCardId('')}>{expandedCardId === item.id ?
                                     <div className='flex flex-col items-center justify-center text-[#B6B6B6]'>
                                         <span>Retrair</span>
                                         <FiArrowUpCircle />
