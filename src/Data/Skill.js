@@ -45,7 +45,7 @@ export const Skills = [
         "link": "https://www.typescriptlang.org/"
     },
     {
-        "img": "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/ts.png",
+        "img": "https://raw.githubusercontent.com/frontRocha/portfolio/master/src/assets/Group-5%201.png",
         "name": "figma",
         "link": "https://www.figma.com/"
     }
