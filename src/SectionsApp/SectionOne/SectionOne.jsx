@@ -20,7 +20,7 @@ export default function SectionOne() {
                     </div>
                     <button className='absolute top-[75%] md:top-auto z-20 rounded bg-[#383838] text-white py-3 px-8 shadow-xl mt-8'>Baixar currículo</button>
                 </div>
-                <img className='min-w-[300px] w-[40%]' src={user} alt="user" />
+                <img className='avatar min-w-[300px] w-[40%]' src={user} alt="user" />
             </div>
         </section>
     )

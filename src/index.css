@@ -3,10 +3,21 @@
 @tailwind utilities;
 
 @layer components {
-    .fontMont {
-        font-family: 'Montserrat', sans-serif;
+  .fontMont {
+    font-family: "Montserrat", sans-serif;
+  }
+  .fontPop {
+    font-family: "Poppins", sans-serif;
+  }
+  .rotate {
+    animation: rotate 6s ease-in-out infinite;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
     }
-    .fontPop {
-        font-family: 'Poppins', sans-serif;
+    100% {
+      transform: rotate(360deg);
     }
+  }
 }
