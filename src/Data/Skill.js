@@ -43,5 +43,10 @@ export const Skills = [
         "img": "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/ts.png",
         "name": "typescript básico",
         "link": "https://www.typescriptlang.org/"
+    },
+    {
+        "img": "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/ts.png",
+        "name": "figma",
+        "link": "https://www.figma.com/"
     }
 ]

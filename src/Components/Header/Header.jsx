@@ -21,7 +21,7 @@ export default function Header() {
                             Projetos
                         </li>
                     </a>
-                    <a href="#section4" className="outline-none>
+                    <a href="#section4" className="outline-none">
                         <li className='hover:text-[#C9B4D5] duration-500'>
                             Skills
                         </li>

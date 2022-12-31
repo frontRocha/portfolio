@@ -4,8 +4,8 @@ export const Pages = [
         "tittle": "WebFree",
         "description": "O objetivo deste projeto é ajudar pessoas a encontrar seu primeiro emprego. Eu me dediquei a ele com muito empenho, pois acredito que ele não só beneficia os outros, mas também me desenvolve profissionalmente.",
         "tumb": "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/Rectangle%208.png",
-        "tec": ["https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/react.png","https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/tailwind%202.png?token=GHSAT0AAAAAABW4UW6V67XXCSZT3UZPXXAMY5PYVEQ"],
-        "tecNames": ["reactjs", "tailwindCss"],
+        "tec": ["https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/react.png","https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/tailwind%202.png?token=GHSAT0AAAAAABW4UW6V67XXCSZT3UZPXXAMY5PYVEQ", "https://raw.githubusercontent.com/frontRocha/portfolio/master/src/assets/firebase.png"],
+        "tecNames": ["reactjs", "tailwindCss", "firebase"],
         "id": 1
     },
     {   
@@ -13,8 +13,8 @@ export const Pages = [
         "tittle": "SyLux",
         "description": "Criei esta aplicação com o propósito de ajudar as pessoas a organizarem suas finanças. Trabalhar nesse projeto foi uma oportunidade de desenvolvimento para mim como desenvolvedor, pois tive que enfrentar vários desafios técnicos.",
         "tumb": "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/Rectangle%2011.png",
-        "tec": ["https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/react.png","https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/tailwind%202.png?token=GHSAT0AAAAAABW4UW6V67XXCSZT3UZPXXAMY5PYVEQ"],
-        "tecNames": ["reactjs", "tailwindCss"],
+        "tec": ["https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/react.png","https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/tailwind%202.png?token=GHSAT0AAAAAABW4UW6V67XXCSZT3UZPXXAMY5PYVEQ", "https://raw.githubusercontent.com/frontRocha/portfolio/master/src/assets/firebase.png"],
+        "tecNames": ["reactjs", "tailwindCss", "firebase"],
         "id": 2
     },
     {
