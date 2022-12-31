@@ -1,15 +1,22 @@
+import Footer from "./Components/Footer/Footer"
+import Header from "./Components/Header/Header"
 import SectionFour from "./SectionsApp/SectionFour/SectionFour"
 import SectionOne from "./SectionsApp/SectionOne/SectionOne"
 import SectionTree from "./SectionsApp/SectionTree/SectionTree"
 import SectionTwo from "./SectionsApp/SectionTwo/SectionTwo"
 
+
 function App() {
   return (
-    <div>
+    <div className="scroll-smooth">
+      <Header />
       <SectionOne />
       <SectionTwo />
-      <SectionTree />
-      <SectionFour />
+      <main>
+        <SectionTree />
+        <SectionFour />
+      </main>            
+      <Footer />
     </div>
   )
 }

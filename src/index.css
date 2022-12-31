@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer components {
+  html {
+    scroll-behavior: smooth;
+  }
   .fontMont {
     font-family: "Montserrat", sans-serif;
   }

@@ -9,7 +9,7 @@ export default function SectionTree() {
     const [expandedCardId, setExpandedCardId] = useState(null);
 
     return (
-        <section className="bg-[#F0F0F0] min-h-screen w-full fontMont">
+        <section id='section3' className="bg-[#F0F0F0] min-h-screen w-full fontMont">
             <img src={desktop} className="w-full" draggable="false" unselectable="on" />
             <div className='relative pt-40 pb-20 md:pt-0 w-full flex justify-center items-center'>
                 <img className='rotate' src={quadrado} draggable="false" unselectable="on" />
