@@ -44,4 +44,13 @@ export const Pages = [
         "tecNames": ["reactTs", "tailwindCss", "typescript"],
         "id": 5
     },
+    {
+        "link": "https://typequizz.vercel.app/",
+        "tittle": "Portfólio",
+        "description": "A criação do meu portfólio, Como todo bom profissional, ter um portfólio é essencial para que as pessoas possam saber o meu trabalho e do que sou capaz de fazer",
+        "tumb": "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/Rectangle%2012.png",
+        "tec": ["https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/react.png","https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/tailwind%202.png?token=GHSAT0AAAAAABW4UW6V67XXCSZT3UZPXXAMY5PYVEQ"],
+        "tecNames": ["reactJs", "tailwindCss"],
+        "id": 6
+    }
 ]
