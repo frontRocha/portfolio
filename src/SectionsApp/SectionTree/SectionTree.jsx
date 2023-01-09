@@ -28,7 +28,7 @@ export default function SectionTree() {
                                     {item.tec.map((tec, index) => (
                                         <div key={index} className="text-center flex flex-col items-center justify-center py-6">
                                             <img className='w-[50px] h-[50px]' src={tec} />
-                                            <p className='text-[#B6B6B6]'>{item.tecNames[index]}</p>
+                                            <p className='text-[#B6B6B6]'>{item.tecNames[index][0].toUpperCase() + item.tecNames[index].substring()}</p>
                                         </div>
                                     ))}
                                 </div>
