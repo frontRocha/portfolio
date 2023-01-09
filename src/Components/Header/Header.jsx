@@ -1,4 +1,4 @@
-import curriculo from '../../SectionsApp/SectionOne/Curriculo/Curriculo.pdf'
+import curriculo from '../../SectionsApp/SectionOne/Curriculo/Curriculo-Mauricio-Pedro-da-Rocha-Front-end.pdf'
 import './Header.css'
 
 export default function Header() {
