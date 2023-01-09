@@ -28,7 +28,7 @@ export default function SectionOne() {
                             <div className="bg-[#D9D9D9] text-3xl py-2 px-2 rounded-full shadow-xl"><RiLinkedinFill /></div>
                         </a>
                     </div>
-                    <a className='absolute top-[75%] md:top-[90%] lg:top-auto z-20 rounded bg-[#383838] hover:bg-white text-white hover:text-[#383838] py-3 px-8 shadow-xl mt-8 duration-500 outline-none' href="/src/Curriculo/Curriculo.pdf" download>
+                    <a className='absolute top-[75%] md:top-[90%] lg:top-auto z-20 rounded bg-[#383838] hover:bg-white text-white hover:text-[#383838] py-3 px-8 shadow-xl mt-8 duration-500 outline-none' href="/Curriculo/Curriculo.pdf" download>
                         Baixar curriculo
                     </a>
                 </div>
