@@ -2,7 +2,7 @@ import aquarela from '../../assets/aquarela.png'
 import './SectionOne.css'
 import user from '../../assets/user.png'
 import { RiGithubFill, RiWhatsappFill, RiLinkedinFill } from 'react-icons/ri'
-import curriculo from './Curriculo/Curriculo-Front-end.pdf'
+import curriculo from './Curriculo/Curriculo.pdf'
 
 export default function SectionOne() {
     return (
@@ -28,7 +28,7 @@ export default function SectionOne() {
                             <div className="bg-[#D9D9D9] text-3xl py-2 px-2 rounded-full shadow-xl"><RiLinkedinFill /></div>
                         </a>
                     </div>
-                    <a className='absolute top-[75%] md:top-[90%] lg:top-auto z-20 rounded bg-[#383838] hover:bg-white text-white hover:text-[#383838] py-3 px-8 shadow-xl mt-8 duration-500 outline-none' href={curriculo} download="curriculo.pdf">
+                    <a className='absolute top-[75%] md:top-[90%] lg:top-auto z-20 rounded bg-[#383838] hover:bg-white text-white hover:text-[#383838] py-3 px-8 shadow-xl mt-8 duration-500 outline-none' href={curriculo} download>
                         Baixar curriculo
                     </a>
                 </div>
