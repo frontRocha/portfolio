@@ -8,27 +8,27 @@ export default function Header() {
                 <h3 className="fontPop font-bold text-white logo px-4 py-1 rounded-full">MEU PORTFÓLIO</h3>
                 <ul className="flex items-center gap-4 fontPop text-white">
                     <a href="#section1" className="outline-none">
-                        <li className='hover:text-[#C9B4D5] duration-500'>
+                        <li className='text-xs sm:text-base hover:text-[#C9B4D5] duration-500'>
                             Home
                         </li>
                     </a>
                     <a href="#section2" className="outline-none">
-                        <li className='hover:text-[#C9B4D5] duration-500'>
+                        <li className='text-xs sm:text-base hover:text-[#C9B4D5] duration-500'>
                             Sobre mim
                         </li>
                     </a>
                     <a href="#section3" className="outline-none">
-                        <li className='hover:text-[#C9B4D5] duration-500'>
+                        <li className='text-xs sm:text-base hover:text-[#C9B4D5] duration-500'>
                             Projetos
                         </li>
                     </a>
                     <a href="#section4" className="outline-none">
-                        <li className='hover:text-[#C9B4D5] duration-500'>
+                        <li className='text-xs sm:text-base hover:text-[#C9B4D5] duration-500'>
                             Skills
                         </li>
                     </a>
                     <a href={curriculo} target="_blank">
-                        <li className='rounded-xl py-1 px-4 text-[#383838] text-sm bg-white font-medium'>
+                        <li className='text-xs sm:text-base rounded-xl py-1 px-4 text-[#383838] bg-white font-medium'>
                             Curriculo
                         </li>
                     </a>
