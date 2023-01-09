@@ -1,4 +1,4 @@
-import curriculo from '../../SectionsApp/SectionOne/Curriculo/Curriculo-Mauricio-Pedro-Front-end.pdf'
+import curriculo from '../../SectionsApp/SectionOne/Curriculo/Curriculo-Mauricio-Pedro-Front-End.pdf'
 import './Header.css'
 
 export default function Header() {
@@ -16,7 +16,7 @@ export default function Header() {
                         <li className='hover:text-[#C9B4D5] duration-500'>
                             Sobre mim
                         </li>
-                    </a>6
+                    </a>
                     <a href="#section3" className="outline-none">
                         <li className='hover:text-[#C9B4D5] duration-500'>
                             Projetos
