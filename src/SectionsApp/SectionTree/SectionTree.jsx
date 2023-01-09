@@ -15,7 +15,7 @@ export default function SectionTree() {
                 <img className='rotate' src={quadrado} draggable="false" unselectable="on" />
                 <h3 className='absolute text-3xl font-bold tracking-tighter'>Projetos do momento</h3>
             </div>
-            <div className='max-w-[1400px] px-10 mx-auto pb-40'>
+            <div className='max-w-[1000px] px-10 mx-auto pb-40'>
                 <div className='grid grid-cols-1 md:grid-cols-2 place-items-center gap-6'>
                     {Pages.map((item, key) => (
                         <div key={key} className={`${expandedCardId === item.id ? 'h-[650px] ' : 'h-[445px]'} duration-700 bg-white w-[320px] lg:w-[416px]  py-4 px-4 rounded-xl shadow-xl`}>
