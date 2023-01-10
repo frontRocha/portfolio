@@ -45,12 +45,22 @@ export const Pages = [
         "id": 5
     },
     {
-        "link": "https://typequizz.vercel.app/",
+        "link": "https://portfoliodevmy.vercel.app/",
         "tittle": "Portfólio",
         "description": "A criação do meu portfólio, Como todo bom profissional, ter um portfólio é essencial para que as pessoas possam saber o meu trabalho e do que sou capaz de fazer",
         "tumb": "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/Rectangle%2012.png",
         "tec": ["https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/react.png","https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/tailwind%202.png?token=GHSAT0AAAAAABW4UW6V67XXCSZT3UZPXXAMY5PYVEQ"],
         "tecNames": ["reactJs", "tailwindCss"],
         "id": 6
+    },
+    {
+        "link": "/",
+        "tittle": "BarberADM",
+        "description": "Ainda em construção, fazer está aplicação está me fazendo explorar muito do react com typescript, além de entender mais sobre typescript, estou estudando sobre estruturas de software em seu desenvolvimento.",
+        "tumb": "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/Rectangle%2012.png",
+        "tec": ["https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/react.png",
+        "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/ts.png", "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/tailwind%202.png?token=GHSAT0AAAAAABW4UW6V67XXCSZT3UZPXXAMY5PYVEQ"],
+        "tecNames": ["reactJs", "typescript", "tailwindCss"],
+        "id": 7
     }
 ]
