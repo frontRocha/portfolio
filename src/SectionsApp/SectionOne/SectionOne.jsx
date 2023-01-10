@@ -6,15 +6,15 @@ import curriculo from './Curriculo/Curriculo-Mauricio-Pedro-Front-End.pdf'
 
 export default function SectionOne() {
     return (
-        <section id='section1' className="h-auto bg-[#F0F0F0] py-10 min-h-screen bg-fixed">
-            <div className="fontMont flex flex-col md:flex-row items-center justify-between min-h-screen max-w-[1400px] mx-auto gap-10 md:gap-0 overflow-x-hidden">
+        <section id='section1' className="h-auto bg-[#F0F0F0] py-10 min-h-screen bg-fixed overflow-hidden">
+            <div className="fontMont flex flex-col md:flex-row items-center justify-between min-h-screen max-w-[1400px] mx-auto gap-10 md:gap-0 ">
                 <div className='relative flex flex-col items-center justify-end w-full '>
                     <img className='min-w-[800px] md:min-w-[400px]' src={aquarela} />
                     <div className='absolute top-[40%] md:top-[35%] lg:top-[40%] z-20'>
-                        <p className="text-white text-2xl md:text-3xl font-medium">Sejá bem vindo(a) <br /> ao meu</p>
+                        <p className="text-[#8680d4] text-2xl md:text-3xl font-medium">Sejá bem vindo(a) <br /> ao meu</p>
                         <div>
                             <span className='text-5xl md:text-6xl lg:text-8xl font-bold'>PORT</span>
-                            <span className='text-5xl md:text-6xl lg:text-8xl font-bold text-[#C3B3D5] bg-white rounded-full px-2'>FÒLIO</span>
+                            <span className='text-5xl md:text-6xl lg:text-8xl font-bold text-[#C3B3D5] bg-white rounded-full px-2'>FÓLIO</span>
                         </div>
                     </div>
                     <div className='absolute top-[70%] md:top-[76%] lg:top-[75%] z-20 flex gap-4'>
@@ -29,7 +29,7 @@ export default function SectionOne() {
                         </a>
                     </div>
                     <a className='absolute top-[75%] md:top-[90%] lg:top-auto z-20 rounded bg-[#383838] hover:bg-white text-white hover:text-[#383838] py-3 px-8 shadow-xl mt-8 duration-500 outline-none' href={curriculo} target="_blank">
-                        Ver curriculo
+                        Ver currículo
                     </a>
                 </div>
                 <img className='avatar min-w-[300px] w-[40%]' src={user} alt="user" />

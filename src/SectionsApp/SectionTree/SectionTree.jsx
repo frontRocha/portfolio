@@ -23,12 +23,12 @@ export default function SectionTree() {
                             <h4 className='text-xl font-bol fontPop'>{item.tittle}</h4>
                             <p className='text-[#B6B6B6] pb-10 text-sm fontPop'>{item.description}</p>
                             <div className={`${expandedCardId === item.id ? 'opacity-100 duration-1000' : 'opacity-0 duration-500'} durato`}>
-                                <h5>Técnologias usadas:</h5>
+                                <h5>Tecnologias usadas:</h5>
                                 <div className='flex items-center justify-around flex-wrap'>
                                     {item.tec.map((tec, index) => (
                                         <div key={index} className="text-center flex flex-col items-center justify-center py-6">
                                             <img className='w-[50px] h-[50px]' src={tec} />
-                                            <p className='text-[#B6B6B6]'>{item.tecNames[index][0].toUpperCase() + item.tecNames[index].substring()}</p>
+                                            <p className='text-[#B6B6B6]'>{item.tecNames[index][0].toUpperCase() + item.tecNames[index].substring(1)}</p>
                                         </div>
                                     ))}
                                 </div>

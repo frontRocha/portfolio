@@ -29,7 +29,7 @@ export default function Header() {
                     </a>
                     <a href={curriculo} target="_blank">
                         <li className='text-xs sm:text-base rounded-xl py-1 px-4 text-[#383838] bg-white font-medium'>
-                            Curriculo
+                            Currículo
                         </li>
                     </a>
                 </ul>
