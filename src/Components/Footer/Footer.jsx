@@ -14,7 +14,7 @@ export default function Footer() {
                             <div className="bg-white text-3xl py-2 px-2 rounded-full shadow-xl text-[#90AED6]"><RiLinkedinFill /></div>
                         </a>
             </div>
-            <p className="fontMot tracking-tighter text-white text-center max-w-[700px] mx-auto pt-10 text-xl">O sucesso não é o resultado de um acaso, mas sim o resultado da determinação, da dedicação e do trabalho duro.</p>
+            <p className="fontMot tracking-tighter text-white text-center max-w-[700px] mx-auto pt-10 text-xl">O sucesso não é o resultado de um acaso, mas sim o resultado da determinação, da dedicação e do trabalho duro. -- Expressão popular</p>
         </footer>
     )
 }
