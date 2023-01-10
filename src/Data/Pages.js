@@ -57,7 +57,7 @@ export const Pages = [
         "link": "/",
         "tittle": "BarberADM",
         "description": "Ainda em construção, fazer está aplicação está me fazendo explorar muito do react com typescript, além de entender mais sobre typescript, estou estudando sobre estruturas de software em seu desenvolvimento.",
-        "tumb": "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/Rectangle%2012.png",
+        "tumb": "https://raw.githubusercontent.com/frontRocha/portfolio/master/src/assets/gear.png",
         "tec": ["https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/react.png",
         "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/ts.png", "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/tailwind%202.png?token=GHSAT0AAAAAABW4UW6V67XXCSZT3UZPXXAMY5PYVEQ"],
         "tecNames": ["reactJs", "typescript", "tailwindCss"],
