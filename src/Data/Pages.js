@@ -38,7 +38,7 @@ export const Pages = [
     {
         "link": "https://typequizz.vercel.app/",
         "tittle": "TypeQuizz",
-        "description": "Este site foi inspirado em um site já existente,ele originalmente é feito em ReactJs, mas tiveo prazer de refatorá-lo em ReactTs, utilizando conceitos interessantes como: useReducer e contextApi.",
+        "description": "Este site foi inspirado em um site já existente, ele originalmente é feito em ReactJs, mas tive o prazer de refatorá-lo em ReactTs, utilizando conceitos interessantes como: useReducer e contextAPI.",
         "tumb": "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/Rectangle%2019.png",
         "tec": ["https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/react.png","https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/tailwind%202.png?token=GHSAT0AAAAAABW4UW6V67XXCSZT3UZPXXAMY5PYVEQ", "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/ts.png"],
         "tecNames": ["reactTs", "tailwindCss", "typescript"],
