@@ -29,7 +29,7 @@ export default function SectionFive() {
                             {item.tecTumbs.map((tec, index) => (
                                 <div key={index} className="text-center flex flex-col items-center justify-center py-6">
                                     <img className='w-[50px] h-[50px]' src={tec} />
-                                    <p className='text-[#B6B6B6]'>{item.tecNames[index][0].toUpperCase() + item.tecNames[index].substring(1)}</p>
+                                    <p className='text-[#B6B6B6] fontPop text-sm'>{item.tecNames[index][0].toUpperCase() + item.tecNames[index].substring(1)}</p>
                                 </div>
                             ))}
                         </div>
