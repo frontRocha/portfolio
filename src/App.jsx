@@ -5,12 +5,13 @@ import SectionOne from "./SectionsApp/SectionOne/SectionOne"
 import SectionTree from "./SectionsApp/SectionTree/SectionTree"
 import SectionTwo from "./SectionsApp/SectionTwo/SectionTwo"
 import SectionFive from "./SectionsApp/SectionFive/SectionFive"
-
+import HeaderMobile from "./Components/HeaderMobile/HeaderMobile"
 
 function App() {
   return (
     <div className="scroll-smooth">
       <Header />
+      <HeaderMobile />
       <SectionOne />
       <SectionTwo />
       <main>
