@@ -18,7 +18,7 @@ export default function SectionTree() {
             <div className='max-w-[1000px] px-10 mx-auto pb-40'>
                 <div className='grid grid-cols-1 md:grid-cols-2 place-items-center gap-6'>
                     {Pages.map((item, key) => (
-                        <div key={key} className={`${expandedCardId === item.id ? 'h-[650px] ' : 'h-[445px]'} duration-700 bg-white w-[320px] lg:w-[416px]  py-4 px-4 rounded-xl shadow-xl`}>
+                        <div key={key} className={`${expandedCardId === item.id ? 'h-[650px]' : 'h-[445px]'} duration-700 bg-white w-[320px] lg:w-[416px]  py-4 px-4 rounded-xl shadow-xl`}>
                             <a target="_blank" href={item.link}><img className='hover:opacity-80 duration-500' src={item.tumb} /></a>
                             <h4 className='text-xl font-bol fontPop'>{item.tittle}</h4>
                             <p className='text-[#B6B6B6] pb-10 text-sm fontPop'>{item.description}</p>

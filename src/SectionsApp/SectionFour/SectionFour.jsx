@@ -1,6 +1,6 @@
 import { Skills } from "../../Data/Skill";
 import quadrado from '../../assets/quadrado.png'
-import divide from '../../assets/waves.svg'
+
 
 export default function SectionFour() {
     return(
@@ -20,8 +20,7 @@ export default function SectionFour() {
                         </div>
                     ))}
                 </div>
-            </div>
-            <img className="rotate-180 py-0 relative top-1" src={divide}/>
+            </div>    
         </section>
     )
 }

@@ -4,6 +4,7 @@ import SectionFour from "./SectionsApp/SectionFour/SectionFour"
 import SectionOne from "./SectionsApp/SectionOne/SectionOne"
 import SectionTree from "./SectionsApp/SectionTree/SectionTree"
 import SectionTwo from "./SectionsApp/SectionTwo/SectionTwo"
+import SectionFive from "./SectionsApp/SectionFive/SectionFive"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <main>
         <SectionTree />
         <SectionFour />
+        <SectionFive />
       </main>            
       <Footer />
     </div>
