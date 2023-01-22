@@ -21,8 +21,12 @@ export default function SectionFive() {
 
                     <a target="_blank" href={item.link}><img className='hover:opacity-80 duration-500 rounded-md' src={item.tumb} /></a>
 
-                    <h4 className='text-xl font-bol fontPop'>{item.name}</h4>
-                    <p className='text-[#B6B6B6] pb-10 text-sm fontPop'>{item.desc}</p>
+                    <div className="flex items-center gap-1">
+                        <h4 className='text-xl font-bol fontPop'>{item.name}</h4>
+                        -
+                        <p className="text-xs text-[#B6B6B6] fontPop">{item.inst}</p>
+                    </div>
+                    <p className='text-[#B6B6B6] pb-10 pt-2 text-sm fontPop'>{item.desc}</p>
                     <div className={`${expandedCardId === item.id ? 'opacity-100 duration-1000' : 'opacity-0 duration-500'} durato`}>
                         <h5>Tecnologias usadas:</h5>
                         <div className='grid grid-cols-3'>

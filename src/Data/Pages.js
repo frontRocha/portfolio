@@ -20,7 +20,7 @@ export const Pages = [
     {
         "link": "https://poketypescript.vercel.app/",
         "tittle": "Poketypescript",
-        "description": "Este site foi desenvolvido do zero, usando a API do pokéApi. Apesar de ser uma api extremamente utilizada, ela foi utilizada com o intuito de treinar React com Typescrit.",
+        "description": "Este site foi desenvolvido do zero, usando a API do pokéApi. Apesar de ser uma api extremamente utilizada, ela foi utilizada com o intuito de treinar React com TypeScript.",
         "tumb": "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/Rectangle%2017.png",
         "tec": ["https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/react.png","https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/tailwind%202.png?token=GHSAT0AAAAAABW4UW6V67XXCSZT3UZPXXAMY5PYVEQ", "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/ts.png"],
         "tecNames": ["reactTs", "tailwindCss", "typescript"],
