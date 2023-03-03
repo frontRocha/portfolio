@@ -2,7 +2,7 @@ import aquarela from '../../assets/aquarela.png'
 import './SectionOne.css'
 import user from '../../assets/user.png'
 import { RiGithubFill, RiWhatsappFill, RiLinkedinFill } from 'react-icons/ri'
-import curriculo from './Curriculo/Curriculo-Mauricio-Pedro-Front-End.pdf'
+import curriculo from './Curriculo/Curriculo-mauricio-pedro-da-rocha.pdf'
 
 export default function SectionOne() {
     return (

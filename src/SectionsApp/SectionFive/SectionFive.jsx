@@ -54,7 +54,7 @@ export default function SectionFive() {
                 ))}
                 </div>
             </div>
-            <img className="rotate-180 py-0 relative top-1" src={divide} />
+            <img className="rotate-180 py-0 relative top-1 w-full" src={divide} />
         </section>
     )
 }
