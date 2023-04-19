@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { HiMenuAlt1 } from 'react-icons/hi'
-import curriculo from '../../SectionsApp/SectionOne/Curriculo/Curriculo-mauricio-pedro-da-rocha.pdf'
+import curriculo from '../../SectionsApp/SectionOne/Curriculo/Curriculo-mauricio-pedro-da-rocha.pdf.pdf'
 import './HeaderMobile.css'
 
 export default function HeaderMobile() {
