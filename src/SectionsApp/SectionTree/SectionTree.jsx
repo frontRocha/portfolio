@@ -18,13 +18,15 @@ export default function SectionTree() {
             <div className='max-w-[1000px] px-10 mx-auto pb-40'>
                 <div className='grid grid-cols-1 md:grid-cols-2 place-items-center gap-6'>
                     {Pages.map((item, key) => (
-                        <div key={key} className={`${expandedCardId === item.id ? 'h-[650px]' : 'h-[445px]'} duration-700 bg-white w-[320px] lg:w-[416px]  py-4 px-4 rounded-xl shadow-xl`}>
-                            <a target="_blank" href={item.link}><img className='hover:opacity-80 duration-500' src={item.tumb} /></a>
-                            <h4 className='text-xl font-bol fontPop'>{item.tittle}</h4>
-                            <p className='text-[#B6B6B6] pb-10 text-sm fontPop'>{item.description}</p>
-                            <div className={`${expandedCardId === item.id ? 'opacity-100 duration-1000' : 'opacity-0 duration-500'} durato`}>
+                        <div key={key} className={`${expandedCardId === item.id ? 'h-[650px]' : 'h-[445px]'} flex flex-col justify-between h-auto duration-700 bg-white w-[320px] lg:w-[416px] py-4 px-4 rounded-xl shadow-xl`}>
+                            <div>
+                                <a target="_blank" href={item.link}><img className='hover:opacity-80 duration-500' src={item.tumb} /></a>
+                                <h4 className='text-xl font-bol fontPop'>{item.title}</h4>
+                                <p className='text-[#B6B6B6] pb-10 text-sm fontPop'>{item.description}</p>
+                            </div>
+                            <div className={`${expandedCardId === item.id ? 'opacity-100 duration-1000 visible' : 'opacity-0 duration-500 invisible'} -top-[130px] relative`}>
                                 <h5>Tecnologias usadas:</h5>
-                                <div className='flex items-center justify-around flex-wrap'>
+                                <div className='grid grid-cols-2 md:grid-cols-3 place-items-center absolute'>
                                     {item.tec.map((tec, index) => (
                                         <div key={index} className="text-center flex flex-col items-center justify-center py-6">
                                             <img className='w-[50px] h-[50px]' src={tec} />
@@ -33,8 +35,8 @@ export default function SectionTree() {
                                     ))}
                                 </div>
                             </div>
-                            <div className='w-full flex flex-col items-center justify-center'>
-                                <button className={`${expandedCardId !== item.id ? 'relative top-[-120px]' : 'relative top-[80px]'} outline-none duration-700`} onClick={expandedCardId !== item.id ? () => setExpandedCardId(item.id) : () => setExpandedCardId('')}>{expandedCardId === item.id ?
+                            <div className='z-50 w-full flex flex-col items-center justify-center'>
+                                <button onClick={expandedCardId !== item.id ? () => setExpandedCardId(item.id) : () => setExpandedCardId('')}>{expandedCardId === item.id ?
                                     <div className='flex flex-col items-center justify-center text-[#B6B6B6]'>
                                         <span>Retrair</span>
                                         <FiArrowUpCircle />

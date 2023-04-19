@@ -59,18 +59,18 @@ export const Pages = [
         "description": "Ainda em desenvolvimento, Table Top é uma apliacação com um sistema SaaS. O objetivo da aplicação é dinamizar uma administração de lanchonetes e junto, carrega um layout com um design moderno e sofisticado.",
         "tumb": "https://raw.githubusercontent.com/frontRocha/portfolio/master/src/assets/gear.png",
         "tec": ["https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/react.png",
-        "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/ts.png", "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/tailwind%202.png?token=GHSAT0AAAAAABW4UW6V67XXCSZT3UZPXXAMY5PYVEQ"],
-        "tecNames": ["reactJs", "typescript", "tailwindCss", "nextJs(backend)"],
+        "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/ts.png", "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/tailwind%202.png?token=GHSAT0AAAAAABW4UW6V67XXCSZT3UZPXXAMY5PYVEQ", "https://raw.githubusercontent.com/frontRocha/portfolio/master/src/assets/nextJs.png", "https://raw.githubusercontent.com/frontRocha/portfolio/master/src/assets/firebase.png"],
+        "tecNames": ["reactJs", "typescript", "tailwindCss", "nextJs(webhook)", "firebase"],
         "id": 7
     },
     {
         "link": "/",
-        "title": "TableTop",
-        "description": "Ainda em desenvolvimento, Table Top é uma apliacação com um sistema SaaS. O objetivo da aplicação é dinamizar uma administração de lanchonetes e junto, carrega um layout com um design moderno e sofisticado.",
+        "title": "Blog",
+        "description": "Ainda em desenvolvimento, Estou criando um blog sobre o meu aprendizado, para registrar meus conhecimentos, opinões e tudo mais, lá tem opção de like, comentário, criar conta e tudo mais, além de descobrir um pouco mais sobre mim.",
         "tumb": "https://raw.githubusercontent.com/frontRocha/portfolio/master/src/assets/gear.png",
         "tec": ["https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/react.png",
-        "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/ts.png", "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/tailwind%202.png?token=GHSAT0AAAAAABW4UW6V67XXCSZT3UZPXXAMY5PYVEQ"],
-        "tecNames": ["reactJs", "typescript", "tailwindCss"],
-        "id": 7
+        "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/ts.png", "https://raw.githubusercontent.com/frontRocha/portifolio/master/src/assets/tailwind%202.png?token=GHSAT0AAAAAABW4UW6V67XXCSZT3UZPXXAMY5PYVEQ", "https://raw.githubusercontent.com/frontRocha/portfolio/master/src/assets/firebase.png"],
+        "tecNames": ["reactJs", "typescript", "tailwindCss", "Firebase"],
+        "id": 8
     }
 ]
