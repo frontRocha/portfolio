@@ -35,7 +35,7 @@ export default function SectionTree() {
                                     ))}
                                 </div>
                             </div>
-                            <div className='z-50 w-full flex flex-col items-center justify-center'>
+                            <div className='z-20 w-full flex flex-col items-center justify-center'>
                                 <button onClick={expandedCardId !== item.id ? () => setExpandedCardId(item.id) : () => setExpandedCardId('')}>{expandedCardId === item.id ?
                                     <div className='flex flex-col items-center justify-center text-[#B6B6B6]'>
                                         <span>Retrair</span>
